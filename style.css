@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body{
+    max-widht: 960px;
+    margin: auto;
+    font-family: "Noto Sans KR", "Nanum Gothic";
+    font-size:14pz;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 0.6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding-bottom: 1em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 3rem;
+}
